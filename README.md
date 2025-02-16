@@ -2,13 +2,13 @@
 
 ### 🎓 About Me
 
-I'm currently a **student at 42**, diving deep into low-level programming, system design, and software engineering.
-
-Before stepping into the world of code, I spent more than a decade abroad in **school and preschool education**, as a FLE (French as a Foreign Language) teacher, pedagogical coordinator and trainer, early education private tutor, and finally designer of a bilingual preschool in French Riviera. I founded the company [MARIDO](https://www.marido.fr/).
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dea8f354-607f-4b53-866d-992b4b9077b6" />
 </p>
+
+I'm currently a **student at 42**, diving deep into low-level programming, system design, and software engineering.
+
+Before stepping into the world of code, I spent more than a decade abroad in **school and preschool education**, as a FLE (French as a Foreign Language) teacher, pedagogical coordinator and trainer, early education private tutor, and finally designer of a bilingual preschool in French Riviera. I founded the company [MARIDO](https://www.marido.fr/).
 
 My background has equipped me with **strong problem-solving, critical thinking, and adaptability skills**. My experience in teaching and cognitive development gives me a unique perspective on learning algorithms, educational technology, and user experience design, which I now explore through programming.
 
