@@ -51,6 +51,8 @@ My background has equipped me with **strong problem-solving, critical thinking, 
 
 👾  [so_long](https://github.com/jack-pepper/so_long) → A 2D graphical game project built using the MiniLibX library. Includes the small custom "game engine" LIBXKIT. 
 
+🎨 Before my studies at 42, I used to play around with CSS: check [my CodePen](https://codepen.io/Pepper-Jack).
+
 ### 🌱 Learning & Growth
 
 I'm currently:
