@@ -63,9 +63,6 @@ I'm currently:
 
 ✅ Willing to learn more and more!
 
-### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jack-pepper&show_icons=true&theme=radical)
-
 ### 📣 Let's Connect!
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/morgan-mali%C3%A9-594287108/)
