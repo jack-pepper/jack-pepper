@@ -5,36 +5,36 @@ int main()
   Profile my; // 🪪
   
   my.name = "Morgan";
-  my.school = 42; // Nice (France)
+  my.school = 42; /* Nice (France) */
+  
   my.areasOfInterest = {
-
     "Software_Architecture" : "Designing scalable and efficient systems";
     "Web Development"       : "Javascript";
     "Game Development"      : "Unity, C#";
     "AI & Machine Learning" : "Natural language processing, cognitive science applications";
-  
   };
+
   my.languages = { "English", "Русский", "Français", "汉语", "Esperanto" };
   my.assets = { "ambitious", "pragmatic", "adaptable" };
   my.currentTarget = "on 42 Common Core finish line";
   
   Background previousCarrier; // 📚
   
-  previousCarrier._field = "Early education";
-  previousCarrier._speciality = "Teaching French as a Foreign Language";
-  previousCarrier._top[3] = { "Trainer & Coordinator", "Preschool Designer", "School Director" };
+  previousCarrier.field = "Early education";
+  previousCarrier.speciality = "Teaching French as a Foreign Language";
+  previousCarrier.top[3] = { "Coordinator", "Trainer", "Director" };
   
   Company business; // 💼
   
   business._status = "IE"; /* Individual Entrepreneur */
   business._commercialName = "MARIDO";
+
   business._services = {
-    
     "educational" : "private tutoring";
     "linguistic"  : "translation & localisation (en/ru/eo > fr); copyrighting"
     "informatics" : "undefined";
+  };
   
-  }
   business._website = "https://www.marido.fr";
 
   Skills stack; // 🛠️
@@ -44,11 +44,9 @@ int main()
   stack.frameworks = { "Typescript", "Tailwind CSS" };
   stack.ai_tools = { "GPT", "Claude", "Copilot", "Suno" };
 
-Misc facts[3] = { "",
-                   "",
-                   "" };
-
-
+   Misc facts[3] = { "hitchhiked around Europe for 3 years",
+                     "lived 10 years in Russia",
+                     "designed a bilingual preschool in the French Riviera" };
 
   if ( wantToKnowMore )
     sendMessage( "marido.entreprise[at]gmail.com" );
