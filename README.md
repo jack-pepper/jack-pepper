@@ -4,9 +4,9 @@ int main()
 {
   Profile my; // 🪪
   
-  my._name = "Morgan";
-  my._school = 42; /* Nice (France) */
-  my._areasOfInterest = {
+  my.name = "Morgan";
+  my.school = 42; // Nice (France)
+  my.areasOfInterest = {
 
     "Software_Architecture" : "Designing scalable and efficient systems";
     "Web Development"       : "Javascript";
@@ -14,9 +14,9 @@ int main()
     "AI & Machine Learning" : "Natural language processing, cognitive science applications";
   
   };
-  my._languages = { "English", "Русский", "Français", "汉语", "Esperanto" };
-  my._assets = { "ambitious", "pragmatic", "adaptable" };
-  my._currentTarget = "study";
+  my.languages = { "English", "Русский", "Français", "汉语", "Esperanto" };
+  my.assets = { "ambitious", "pragmatic", "adaptable" };
+  my.currentTarget = "on 42 Common Core finish line";
   
   Background previousCarrier; // 📚
   
@@ -40,9 +40,16 @@ int main()
   Skills stack; // 🛠️
 
   stack.os[3] = { "Linux", "MacOS", "Windows" };
-  stack.languages.computer = { "C", "C++", "HTML", "Javascript", "Python" };
+  stack.languages = { "C", "C++", "Javascript", "Python" };
+  stack.frameworks = { "Typescript", "Tailwind CSS" };
   stack.ai_tools = { "GPT", "Claude", "Copilot", "Suno" };
-  
+
+Misc facts[3] = { "",
+                   "",
+                   "" };
+
+
+
   if ( wantToKnowMore )
     sendMessage( "marido.entreprise[at]gmail.com" );
   else
