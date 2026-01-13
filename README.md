@@ -1,5 +1,8 @@
 
-```bash
+<details>
+  <summary>My Profile</summary>
+
+  ```bash
 int main()
 {
   Profile my; // 🪪
@@ -55,8 +58,11 @@ int main()
 
   return ( $? );
 }
+```
+</details>
 
-/**************** LAST LOGS ****************/
+<details>
+  <summary>My Logs</summary>
 
 ## Week of [04-01-2025 - 10-01-2025]
 
@@ -89,5 +95,16 @@ int main()
 Но все, что мне нужно, – это несколько слов
 И место для шага вперед."
 Виктор (с)
+
+</details>
+
+<details>
+  <summary>My Projects</summary>
+
+  
+</details>
+  
+
+
 
 `
