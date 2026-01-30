@@ -20,10 +20,19 @@ def get_worklog_files(worklog_dir):
     # Get all .md files
     md_files = list(worklog_path.glob("*.md"))
     
-    # Sort by filename (which should be dates) in reverse order (newest first)
-    md_files.sort(reverse=True)
+    # Validate filename format (YYYY-MM-DD.md)
+    valid_files = []
+    for f in md_files:
+        # Check if filename matches date format
+        if re.match(r'^\d{4}-\d{2}-\d{2}\.md$', f.name):
+            valid_files.append(f)
+        else:
+            print(f"⚠️  Skipping invalid worklog filename: {f.name}")
     
-    return md_files
+    # Sort by filename (which are dates in YYYY-MM-DD format) in reverse order (newest first)
+    valid_files.sort(reverse=True)
+    
+    return valid_files
 
 
 def read_worklog_content(worklog_files):
@@ -53,8 +62,12 @@ def update_readme(readme_path, worklog_content):
     # Pattern to match content between WORKLOG:START and WORKLOG:END
     pattern = r'(<!-- WORKLOG:START -->).*?(<!-- WORKLOG:END -->)'
     
+    # Check if markers exist
+    if not re.search(pattern, readme_text, flags=re.DOTALL):
+        raise ValueError("WORKLOG markers not found in README.md. Please ensure <!-- WORKLOG:START --> and <!-- WORKLOG:END --> comments exist.")
+    
     # Replace with new content
-    replacement = f'\\1\n{worklog_content}\n\\2'
+    replacement = rf'\1\n{worklog_content}\n\2'
     updated_readme = re.sub(pattern, replacement, readme_text, flags=re.DOTALL)
     
     # Write back to file
