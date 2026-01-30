@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script to update README.md with worklog entries.
-Reads all markdown files from the worklog directory and inserts them
+Script to update README.md with the most recent worklog entry.
+Reads the most recent markdown file from the worklog directory and inserts it
 between the WORKLOG:START and WORKLOG:END comments.
 """
 
@@ -36,22 +36,24 @@ def get_worklog_files(worklog_dir):
 
 
 def read_worklog_content(worklog_files):
-    """Read content from all worklog files and format them."""
-    content_parts = []
+    """Read content from the most recent worklog file and format it."""
+    if not worklog_files:
+        return ""
     
-    for worklog_file in worklog_files:
-        # Extract date from filename (e.g., 2026-04-01.md -> 2026-04-01)
-        date_str = worklog_file.stem
-        
-        # Read the file content
-        with open(worklog_file, 'r', encoding='utf-8') as f:
-            file_content = f.read().strip()
-        
-        # Format the entry with a header
-        entry = f"\n### 📅 {date_str}\n\n{file_content}\n"
-        content_parts.append(entry)
+    # Only process the first (most recent) worklog file
+    worklog_file = worklog_files[0]
     
-    return "\n".join(content_parts)
+    # Extract date from filename (e.g., 2026-01-18.md -> 2026-01-18)
+    date_str = worklog_file.stem
+    
+    # Read the file content
+    with open(worklog_file, 'r', encoding='utf-8') as f:
+        file_content = f.read().strip()
+    
+    # Format the entry with a header and add the "View all worklogs" link
+    entry = f"\n### 📅 {date_str}\n\n{file_content}\n\n[View all worklogs →](./worklogs)\n"
+    
+    return entry
 
 
 def update_readme(readme_path, worklog_content):
@@ -81,7 +83,7 @@ def main():
     # Get the repository root directory
     repo_root = Path(__file__).parent.parent
     
-    worklog_dir = repo_root / "worklog"
+    worklog_dir = repo_root / "worklogs"
     readme_path = repo_root / "README.md"
     
     # Get worklog files
@@ -91,7 +93,7 @@ def main():
         print("⚠️  No worklog files found")
         worklog_content = "\n*No worklog entries yet.*\n"
     else:
-        print(f"📁 Found {len(worklog_files)} worklog file(s)")
+        print(f"📁 Found {len(worklog_files)} worklog file(s), displaying the most recent one")
         worklog_content = read_worklog_content(worklog_files)
     
     # Update README

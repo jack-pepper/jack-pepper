@@ -66,37 +66,45 @@ int main()
 
 <!-- WORKLOG:START -->
 
-### 📅 2026-04-01
+### 📅 2026-01-18
+
+## Week of [18-01-2026 - 25-01-2026]
 
 ### [Workflow]
-- Defined a MarkDown template for weekly work log (this!)
-- Subscribed to Medium Daily Digest.
-
-### [42_Collaborative_Resume] (with: Yahya)
-- Followed Overleaf's LaTeX tutorial
-- Prepared my own "Jake's Resume" template (EN) and a two-column resume (FR)
-- Prepared questions (and answers) for mock interviews
+- It would be great to automate publishing this work log on Github. Draft: show the previous week's log, with a link to the full document.
+- I am unsure whether creating a search system would be worth it, but I wll keep the idea just in case.
+- As my schedule *should* be more stable for a couple of months, I can reorganise my workflow for more efficiency.
+- Current goals before summer: 1- finish 42 Common Core (Transcendence Group + Exam); 2- finish Transcendence Solo; 3- define what's next!
 
 ### [Transcendence_Solo]
-- Built a Tailwind CSS template aiming for minimizing changes and reusability
-- Defined a TypeScript structure (custom library) to ease adding future games to the project
-- Implemented a basic Pong on a HTML canvas (handles ball and paddles' moves and wall collision)
-- [Term]
-    - npx @tailwindcss/cli -i ./app/frontend/css/style.css -o ./app/frontend/css/style_output.css --watch : real-time update
-    - (from /config) npx tsc --build tsconfig.base.json --force : rebuild (with NodeNext module resolution, all relative imports need explicit .js extensions)
-    - npx http-server . -p 8080 -c-1 : launch server
+- Started implementing the chat. Websockets are working, time to store the conversations in DB. 
+- Added a SQL schema for DB whose existence is assessed at startup. I might need to set a migration table later to handle version update.
+- Refactored the project for modularity and clarity. 
+- Finally set a 're' alias to recompile the project properly with one command:
+    `
+    npx tsc --build ./config/tsconfig.base.json --force
+    npx tsc -p app/frontend/tsconfig.json
+    npx tsc -p app/backend/tsconfig.json
+    npx tsx app/backend/src/server.mjs'
+    `
 
-### [Misc]
-- [Languages] 13-day streaks in Babbel (English) and Chinese Buddy (Mandarine Chinese). Good to be back!
-- [Suno_AI] Started publishing "Nashi", a set of 7 AI-Assisted songs made from Russian classical verses about exile, emigration and "toska".
+- [Reminder] To set an alias: 1. code ~/.zshrc 2. add alias re='{my commands}' 3. source ~/zshrc
+- [Reminder] An EventListener supports Entry if applied on form element (instead of send button) and is good for accessibility. 
+- [Reminder] Defining an interface can help with destructuration type errors with TypeScript.
+- [Resources] [Guide: Setting up a Fastify WebSocket project](https://betterstack.com/community/guides/scaling-nodejs/fastify-websockets/)
+
+### [Transcendence_Group]
+- Suggested an idea for the project. As each of us is highly interested in implementing a RAG and a LLM, it should cover it without too much
+    replication of my Transcendence Solo project. Another stack would be nice.
+- Defined with my partners a meeting date.
+
+### [42_Exam_Rank06]
+- Reviewed the basics of a server.
 
 ### [Thoughts]
+- 解 (xiè, hexagramme 40 du Yi King).
 
-"Есть еще белые, белые дни,
-Белые горы и белый лед,
-Но все, что мне нужно, – это несколько слов
-И место для шага вперед."
-Виктор (с)
+[View all worklogs →](./worklogs)
 
 <!-- WORKLOG:END -->
 
