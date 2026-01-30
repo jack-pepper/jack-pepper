@@ -1,6 +1,6 @@
 
 <details>
-  <summary>My Profile</summary>
+  <summary><strong>MY PROFILE</strong></summary>
 
   ```bash
 int main()
@@ -62,7 +62,7 @@ int main()
 </details>
 
 <details>
-  <summary>My Logs</summary>
+  <summary><strong>MY LOGS</strong></summary>
 
 ## Week of [04-01-2025 - 10-01-2025]
 
@@ -99,9 +99,9 @@ int main()
 </details>
 
 <details>
-  <summary>My Projects</summary>
+  <summary><strong>MY PROJECTS</strong></summary>
 
-# ~ Common Core ~
+# ~ COMMON CORE ~
 
 ## Circle 0
 
