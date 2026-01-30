@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script to update README.md with worklog entries.
-Reads all markdown files from the worklog directory and inserts them
+Script to update README.md with the most recent worklog entry.
+Reads the most recent markdown file from the worklog directory and inserts it
 between the WORKLOG:START and WORKLOG:END comments.
 """
 
