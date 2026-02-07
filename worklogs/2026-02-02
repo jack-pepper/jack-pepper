@@ -1,0 +1,28 @@
+## Week of [02-02-2026 - 09-02-2026]
+
+### [Workflow]
+- Priorities changed: the new goal is to validate Transcendence Group before the end of March, as one or our members MUST be done by then.
+- Set Ollama on my laptop for LLM local use and management of sensitive or confidential data. Use with: 'ollama run gemma3' (or other model).
+
+### [Transcendence_Group]
+- Two new members joined us. So far I am confident we will succeed with this team.
+- I set the main priorities and rewamped the backlog to match our goal to turn in a minimal but flawless product.
+- Wrote a Python script (connected to local LLM) to prepare 42 docs confidentially for RAG-feeding (conversion from .pdf to .md with manual proofcheck):
+
+    1- Install deps: pip install pymupdf requests
+    2- Write Python script (.pdf to .md)
+    3- Run it (single file): python3 pdf_to_md_ollama.py <input_file>.pdf gemma3:latest
+    4- Run it (batch): python3 pdf_to_md_ollama.py ./pdfs ./md_out --model gemma3:4b --language en --strict
+
+### [Transcendence_Solo]
+- Set in pause (non urgent).
+
+### [42_Exam_Rank06]
+- Not urgent at this point, but validate ASAP.
+
+### [Resources]
+- [Ollama documentation](https://docs.ollama.com/quickstart)
+
+### [Thoughts]
+- I am overloaded with other non-coding projects at the same time, so these days do feel like a high-paced and stressful environment.
+    For some reasons, my internal caveman does seem to thrive in such. It does coerce you into being creative, organized and fearless.
