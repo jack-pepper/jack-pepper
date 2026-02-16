@@ -66,36 +66,26 @@ int main()
 
 <!-- WORKLOG:START -->
 
-### 📅 2026-02-02
+### 📅 2026-02-08
 
-## Week of [02-02-2026 - 09-02-2026]
+## Week of [08-02-2026 - 15-02-2026]
 
 ### [Workflow]
-- Priorities changed: the new goal is to validate Transcendence Group before the end of March, as one or our members MUST be done by then.
-- Set Ollama on my laptop for LLM local use and management of sensitive or confidential data. Use with: 'ollama run gemma3' (or other model).
+- Getting faster.
 
-### [Transcendence_Group]
-- Two new members joined us. So far I am confident we will succeed with this team.
-- I set the main priorities and rewamped the backlog to match our goal to turn in a minimal but flawless product.
-- Wrote a Python script (connected to local LLM) to prepare 42 docs confidentially for RAG-feeding (conversion from .pdf to .md with manual proofcheck):
-
-    1- Install deps: pip install pymupdf requests
-    2- Write Python script (.pdf to .md)
-    3- Run it (single file): python3 pdf_to_md_ollama.py <input_file>.pdf gemma3:latest
-    4- Run it (batch): python3 pdf_to_md_ollama.py ./pdfs ./md_out --model gemma3:4b --language en --strict
+### [Transcendence_Team]
+- Solved conversion issues with my Python script (thanks to [Derek's article: why is it so hard to pdf text extraction?](https://dev.to/derek-compdf/why-is-it-so-hard-to-pdf-text-extraction-k6h?utm_source=chatgpt.com).
+- Learned to set a Django project. Intimidating at first, but it does not bite.
+- Added 42 OAuth (and learned about 42 API)
 
 ### [Transcendence_Solo]
-- Set in pause (non urgent).
+- On pause.
 
 ### [42_Exam_Rank06]
-- Not urgent at this point, but validate ASAP.
-
-### [Resources]
-- [Ollama documentation](https://docs.ollama.com/quickstart)
+- On pause.
 
 ### [Thoughts]
-- I am overloaded with other non-coding projects at the same time, so these days do feel like a high-paced and stressful environment.
-    For some reasons, my internal caveman does seem to thrive in such. It does coerce you into being creative, organized and fearless.
+-  I read with great interest the article [Something Big is Happening (Matt Shumer)](https://shumer.dev/something-big-is-happening). Unsure on what to conclude though.
 
 [View all worklogs →](./worklogs)
 
