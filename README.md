@@ -100,84 +100,122 @@ int main()
 
 ## Circle 0
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| libft      | Build your own reusable C utility library. | libc re-implementation, pointers, memory, Makefile, linked lists | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| libft | Build your own reusable C utility library. | libc re-implementation, pointers, memory, Makefile, linked lists |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_LIBFT_1" width="260"/>
+  <img src="PLACEHOLDER_LIBFT_2" width="260"/>
+</p>
 
 ---
 
 ## Circle 1
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| ft_printf | Recreate `printf` (subset) with formatted output. | variadic args, parsing, formatting, write(), modular C design | link |
-| get_next_line | Read a file descriptor line-by-line. | file I/O, buffers, static state, memory management | link |
-| Born2beroot | Set up and harden a Linux VM like a (mini) sysadmin. | virtualization, Linux, users/groups, sudo, SSH, firewall, cron | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| ft_printf | Recreate `printf` (subset) with formatted output. | variadic args, parsing, formatting, write(), modular C design |
+| get_next_line | Read a file descriptor line-by-line. | file I/O, buffers, static state, memory management |
+| Born2beroot | Set up and harden a Linux VM like a (mini) sysadmin. | virtualization, Linux, users/groups, sudo, SSH, firewall, cron |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_PRINTF" width="260"/>
+  <img src="PLACEHOLDER_GNL" width="260"/>
+  <img src="PLACEHOLDER_B2BR" width="260"/>
+</p>
 
 ---
 
 ## Circle 2
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| push_swap | Sort integers using two stacks and a limited instruction set. | sorting strategies, complexity, greedy/heuristics, data structures | link |
-| minitalk | Send text between processes using UNIX signals. | signals, bitwise encoding, client/server | link |
-| so_long  | Build a tiny 2D game using MiniLibX. | event loop, rendering, map parsing, collision, flood fill | link |
-| Exam Rank 02 | Timed C algorithmic exercises (multiple levels). | C basics, strings, pointers, small algorithms, speed/accuracy | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| push_swap | Sort integers using two stacks and a limited instruction set. | sorting strategies, complexity, greedy/heuristics, data structures |
+| minitalk | Send text between processes using UNIX signals. | signals, bitwise encoding, client/server |
+| so_long | Build a tiny 2D game using MiniLibX. | event loop, rendering, map parsing, collision, flood fill |
+| Exam Rank 02 | Timed C algorithmic exercises (multiple levels). | C basics, strings, pointers, small algorithms, speed/accuracy |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_PUSHSWAP" width="260"/>
+  <img src="PLACEHOLDER_MINITALK" width="260"/>
+  <img src="PLACEHOLDER_SOLONG" width="260"/>
+</p>
 
 ---
 
 ## Circle 3
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| minishell | Implement a minimal Bash-like shell. | parsing, env, fork/exec, pipes, redirections, signals, termios | link |
-| Philosophers | Solve the Dining Philosophers concurrency problem. | threads, mutexes, deadlocks, timing, synchronization | link |
-| Exam Rank 03 | Timed C exam (often `ft_printf` or `get_next_line`-style tasks). | C fundamentals, limited specs, debugging under pressure | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| minishell | Implement a minimal Bash-like shell. | parsing, env, fork/exec, pipes, redirections, signals, termios |
+| Philosophers | Solve the Dining Philosophers concurrency problem. | threads, mutexes, deadlocks, timing, synchronization |
+| Exam Rank 03 | Timed C exam. | C fundamentals, debugging |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_MINISHELL" width="260"/>
+  <img src="PLACEHOLDER_PHILO" width="260"/>
+</p>
 
 ---
 
 ## Circle 4
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| NetPractice | Solve networking exercises (IP/subnets/routing). | IPv4, subnetting, routing, masks, network reasoning | link |
-| cub3D | Raycasting 3D maze (Wolf3D-style). | raycasting, textures, map parsing, rendering loop, math | link |
-| CPP Module 00 | C++ basics & OOP intro. | classes, methods, namespaces, IO streams | link |
-| CPP Module 01 | Memory & references in C++. | new/delete, references, pointers, RAII intro | link |
-| CPP Module 02 | Ad-hoc polymorphism & orthodox canon form. | operator overload, canonical form, fixed-point-ish patterns | link |
-| CPP Module 03 | Inheritance. | inheritance, protected/public, composition vs inheritance | link |
-| CPP Module 04 | Subtype polymorphism & interfaces. | virtual, abstract classes, deep copy, polymorphism | link |
-| Exam Rank 04 | Timed “micro-shell” style exam. | fork/exec, pipes, parsing argv, minimal shell behavior | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| NetPractice | Solve networking exercises (IP/subnets/routing). | IPv4, subnetting, routing, masks |
+| cub3D | Raycasting 3D maze. | math, textures, rendering loop |
+| CPP Modules | Object-oriented programming. | polymorphism, abstraction |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_NETPRACTICE" width="260"/>
+  <img src="PLACEHOLDER_CUB3D" width="260"/>
+  <img src="PLACEHOLDER_CPP" width="260"/>
+</p>
 
 ---
 
 ## Circle 5
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| Inception | Deploy a multi-service stack using Docker. | Docker, docker-compose, networks, volumes, Nginx, services | link |
-| webserv  | Write an HTTP server (HTTP/1.1). | sockets, HTTP, non-blocking I/O, config parsing, CGI | link |
-| CPP Module 05 | Exceptions. | try/throw/catch, exception safety | link |
-| CPP Module 06 | Casts. | static/dynamic/reinterpret/const cast, RTTI ideas | link |
-| CPP Module 07 | Templates. | templates, generic programming | link |v |
-| CPP Module 09 | Containers in practice. | containers, parsing, algorithms, composition | link |
-| Exam Rank 05 | Timed C++ exam (multiple modules). | C++ syntax, OOP, problem solving under time constraints, binary tree | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| Inception | Multi-service Docker infrastructure. | containers, networking, services |
+| webserv | HTTP server implementation. | sockets, HTTP, non-blocking I/O |
+| CPP Advanced | Templates and exceptions. | generic programming |
+
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_INCEPTION" width="260"/>
+  <img src="PLACEHOLDER_WEBSERV" width="260"/>
+</p>
 
 ---
 
 ## Circle 6
 
-| Project | Concise description | Main notions & concepts used | Link |
-|---|---|---|---|
-| ft_transcendence | Build a full-stack web app (multiplayer Pong). | web dev, auth, real-time (WebSockets), security, Docker, teamwork | link |
-| Exam Rank 06 | Final timed "mini server" style exam. | advanced timed problem-solving, robustness, constraints | link |
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| ft_transcendence | Full-stack multiplayer web app. | real-time, authentication, Docker |
+| Exam Rank 06 | Final timed exam. | robustness, constraints |
 
-# Post Common Core
+### Visual gallery
+<p align="center">
+  <img src="PLACEHOLDER_TRANSCENDENCE_1" width="260"/>
+  <img src="PLACEHOLDER_TRANSCENDENCE_2" width="260"/>
+</p>
 
+---
+
+# Post Common Core  
 (To be unlocked)
-  
+
 </details>
+
   
 
 
