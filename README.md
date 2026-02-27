@@ -106,8 +106,12 @@ int main()
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_LIBFT_1" width="260"/>
-  <img src="PLACEHOLDER_LIBFT_2" width="260"/>
+  <a href="presentations/libft.md">
+    <img src="assets/circle0/libft_1.png" width="260" alt="libft preview"/>
+  </a>
+  <a href="presentations/libft.md">
+    <img src="assets/circle0/libft_2.png" width="260" alt="libft preview"/>
+  </a>
 </p>
 
 ---
@@ -122,9 +126,15 @@ int main()
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_PRINTF" width="260"/>
-  <img src="PLACEHOLDER_GNL" width="260"/>
-  <img src="PLACEHOLDER_B2BR" width="260"/>
+  <a href="presentations/ft_printf.md">
+    <img src="assets/circle1/ft_printf.png" width="260" alt="ft_printf preview"/>
+  </a>
+  <a href="presentations/get_next_line.md">
+    <img src="assets/circle1/get_next_line.png" width="260" alt="get_next_line preview"/>
+  </a>
+  <a href="presentations/born2beroot.md">
+    <img src="assets/circle1/born2beroot.png" width="260" alt="Born2beroot preview"/>
+  </a>
 </p>
 
 ---
@@ -140,9 +150,15 @@ int main()
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_PUSHSWAP" width="260"/>
-  <img src="PLACEHOLDER_MINITALK" width="260"/>
-  <img src="PLACEHOLDER_SOLONG" width="260"/>
+  <a href="presentations/push_swap.md">
+    <img src="assets/circle2/push_swap.gif" width="260" alt="push_swap preview"/>
+  </a>
+  <a href="presentations/minitalk.md">
+    <img src="assets/circle2/minitalk.png" width="260" alt="minitalk preview"/>
+  </a>
+  <a href="presentations/so_long.md">
+    <img src="assets/circle2/so_long.gif" width="260" alt="so_long preview"/>
+  </a>
 </p>
 
 ---
@@ -153,12 +169,16 @@ int main()
 |---|---|---|
 | minishell | Implement a minimal Bash-like shell. | parsing, env, fork/exec, pipes, redirections, signals, termios |
 | Philosophers | Solve the Dining Philosophers concurrency problem. | threads, mutexes, deadlocks, timing, synchronization |
-| Exam Rank 03 | Timed C exam. | C fundamentals, debugging |
+| Exam Rank 03 | Timed C exam. | C fundamentals, limited specs, debugging under pressure |
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_MINISHELL" width="260"/>
-  <img src="PLACEHOLDER_PHILO" width="260"/>
+  <a href="presentations/minishell.md">
+    <img src="assets/circle3/minishell.png" width="260" alt="minishell preview"/>
+  </a>
+  <a href="presentations/philosophers.md">
+    <img src="assets/circle3/philosophers.png" width="260" alt="philosophers preview"/>
+  </a>
 </p>
 
 ---
@@ -167,15 +187,26 @@ int main()
 
 | Project | Concise description | Main notions & concepts used |
 |---|---|---|
-| NetPractice | Solve networking exercises (IP/subnets/routing). | IPv4, subnetting, routing, masks |
-| cub3D | Raycasting 3D maze. | math, textures, rendering loop |
-| CPP Modules | Object-oriented programming. | polymorphism, abstraction |
+| NetPractice | Solve networking exercises (IP/subnets/routing). | IPv4, subnetting, routing, masks, network reasoning |
+| cub3D | Raycasting 3D maze (Wolf3D-style). | raycasting, textures, map parsing, rendering loop, math |
+| CPP Module 00 | C++ basics & OOP intro. | classes, methods, namespaces, IO streams |
+| CPP Module 01 | Memory & references in C++. | new/delete, references, pointers, RAII intro |
+| CPP Module 02 | Ad-hoc polymorphism & orthodox canon form. | operator overload, canonical form, fixed-point-ish patterns |
+| CPP Module 03 | Inheritance. | inheritance, protected/public, composition vs inheritance |
+| CPP Module 04 | Subtype polymorphism & interfaces. | virtual, abstract classes, deep copy, polymorphism |
+| Exam Rank 04 | Timed “micro-shell” style exam. | fork/exec, pipes, parsing argv, minimal shell behavior |
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_NETPRACTICE" width="260"/>
-  <img src="PLACEHOLDER_CUB3D" width="260"/>
-  <img src="PLACEHOLDER_CPP" width="260"/>
+  <a href="presentations/netpractice.md">
+    <img src="assets/circle4/netpractice.png" width="260" alt="NetPractice preview"/>
+  </a>
+  <a href="presentations/cub3d.md">
+    <img src="assets/circle4/cub3d.gif" width="260" alt="cub3D preview"/>
+  </a>
+  <a href="presentations/cpp_modules.md">
+    <img src="assets/circle4/cpp.png" width="260" alt="C++ modules preview"/>
+  </a>
 </p>
 
 ---
@@ -184,14 +215,25 @@ int main()
 
 | Project | Concise description | Main notions & concepts used |
 |---|---|---|
-| Inception | Multi-service Docker infrastructure. | containers, networking, services |
-| webserv | HTTP server implementation. | sockets, HTTP, non-blocking I/O |
-| CPP Advanced | Templates and exceptions. | generic programming |
+| Inception | Deploy a multi-service stack using Docker. | Docker, docker-compose, networks, volumes, Nginx, services |
+| webserv | Write an HTTP server (HTTP/1.1). | sockets, HTTP, non-blocking I/O, config parsing, CGI |
+| CPP Module 05 | Exceptions. | try/throw/catch, exception safety |
+| CPP Module 06 | Casts. | static/dynamic/reinterpret/const cast, RTTI ideas |
+| CPP Module 07 | Templates. | templates, generic programming |
+| CPP Module 09 | Containers in practice. | containers, parsing, algorithms, composition |
+| Exam Rank 05 | Timed C++ exam (multiple modules). | C++ syntax, OOP, problem solving, binary tree |
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_INCEPTION" width="260"/>
-  <img src="PLACEHOLDER_WEBSERV" width="260"/>
+  <a href="presentations/inception.md">
+    <img src="assets/circle5/inception.png" width="260" alt="Inception preview"/>
+  </a>
+  <a href="presentations/webserv.md">
+    <img src="assets/circle5/webserv.png" width="260" alt="webserv preview"/>
+  </a>
+  <a href="presentations/cpp_advanced.md">
+    <img src="assets/circle5/cpp_advanced.png" width="260" alt="C++ advanced preview"/>
+  </a>
 </p>
 
 ---
@@ -200,18 +242,20 @@ int main()
 
 | Project | Concise description | Main notions & concepts used |
 |---|---|---|
-| ft_transcendence | Full-stack multiplayer web app. | real-time, authentication, Docker |
-| Exam Rank 06 | Final timed exam. | robustness, constraints |
+| ft_transcendence | Build a full-stack web app (multiplayer Pong). | web dev, auth, real-time (WebSockets), security, Docker, teamwork |
+| Exam Rank 06 | Final timed "mini server" style exam. | advanced timed problem-solving, robustness, constraints |
 
 ### Visual gallery
 <p align="center">
-  <img src="PLACEHOLDER_TRANSCENDENCE_1" width="260"/>
-  <img src="PLACEHOLDER_TRANSCENDENCE_2" width="260"/>
+  <a href="presentations/ft_transcendence.md">
+    <img src="assets/circle6/ft_transcendence.gif" width="260" alt="ft_transcendence preview"/>
+  </a>
+  <a href="presentations/exam_rank_06.md">
+    <img src="assets/circle6/exam_rank_06.png" width="260" alt="Exam Rank 06 preview"/>
+  </a>
 </p>
 
----
-
-# Post Common Core  
+# Post Common Core
 (To be unlocked)
 
 </details>
