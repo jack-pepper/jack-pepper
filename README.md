@@ -66,26 +66,31 @@ int main()
 
 <!-- WORKLOG:START -->
 
-### 📅 2026-02-08
+### 📅 2026-02-29
 
-## Week of [08-02-2026 - 15-02-2026]
+## Week of [09-02-2026 - 29-02-2026]
 
 ### [Workflow]
-- Getting faster.
+- Here we go! I lose so much time in France with nonsensical administrative tasks. It's like the whole social organization
+aims to nothing else than keeping the statu quo, no matter how inefficient it is, and preventing people to actually *work* on what does matter. Anyway, there is a second load of absurd kafkaian procedures to tackle now, then I can go back
+to something more fulfilling than bureaucrats' psychosis.
 
 ### [Transcendence_Team]
 - Solved conversion issues with my Python script (thanks to [Derek's article: why is it so hard to pdf text extraction?](https://dev.to/derek-compdf/why-is-it-so-hard-to-pdf-text-extraction-k6h?utm_source=chatgpt.com).
 - Learned to set a Django project. Intimidating at first, but it does not bite.
 - Added 42 OAuth (and learned about 42 API)
-
-### [Transcendence_Solo]
-- On pause.
+- Added (for the most part) GDPR compliance on a dedicated page Documentation (contains legal documents and tools to see, download and delete data).
+- Defined with the team what should be the next steps. Our goal is still to first finalize a minimal version, but we may add a couple of 'easy' modules. Can't wait to develop this project further.
 
 ### [42_Exam_Rank06]
-- On pause.
+- Tried and failed, but was close. Unexpectedly was able to register to a Tuesday's exam, will try not to fail harder. 
+
+### [On_Pause_and_plans]
+- Transcendence Solo: I will keep on doing it in the side to explore 'basic' stuff needed for any web app.
+- Three other projects (V, T T, H).
 
 ### [Thoughts]
--  I read with great interest the article [Something Big is Happening (Matt Shumer)](https://shumer.dev/something-big-is-happening). Unsure on what to conclude though.
+-  I read with great interest the article [Something Big is Happening (Matt Shumer)](https://shumer.dev/something-big-is-happening). Unsure on what to conclude though. IA is such a game-changer on many levels, and it evolves so fast that it is definitely not easy to decide on how to handle it. Its mere existence forces you to reconsider almost everything you were sure about.
 
 [View all worklogs →](./worklogs)
 
