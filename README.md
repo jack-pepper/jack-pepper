@@ -204,7 +204,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle4/netpractice.png" width="260" alt="NetPractice preview"/>
   </a>
   <a href="presentations/cub3d.md">
-    <img src="assets/circle4/cub3d.png" width="260" alt="cub3D preview"/>
+    <img src="assets/circle4/Wolfenstein-3d.gif" width="260" alt="cub3D preview"/>
   </a>
   <a href="presentations/cpp_modules.md">
     <img src="assets/circle4/cpp.png" width="260" alt="C++ modules preview"/>
