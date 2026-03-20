@@ -266,7 +266,7 @@ to something more fulfilling than bureaucrats' psychosis.
 
 # Personal projects
 
-## Circle 6
+## Around 42
 
 | Project | Concise description | Main notions & concepts used |
 |---|---|---|
@@ -275,13 +275,13 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/mylibft.md">
-    <img src="assets/mylibft_1.png" width="340" alt="ft_transcendence preview"/>
+    <img src="assets/mylibft_1.png" width="260" alt="ft_transcendence preview"/>
   </a>
   <a href="presentations/mylibft.md">
-    <img src="assets/mylibft_2.png" width="340" alt="ft_transcendence preview"/>
+    <img src="assets/mylibft_2.png" width="260" alt="ft_transcendence preview"/>
   </a>
   <a href="presentations/mylibft.md">
-    <img src="assets/mylibft_3.png" width="340" alt="Exam Rank 06 preview"/>
+    <img src="assets/mylibft_3.png" width="260" alt="Exam Rank 06 preview"/>
   </a>
 </p>
 
