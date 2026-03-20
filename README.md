@@ -161,7 +161,7 @@ to something more fulfilling than bureaucrats' psychosis.
   <a href="presentations/minitalk.md">
     <img src="assets/circle2/minitalk.png" width="260" alt="minitalk preview"/>
   </a>
-  <a href="presentations/so_long.md">
+  <a href="jack-pepper/so_long">
     <img src="assets/circle2/so_long.gif" width="260" alt="so_long preview"/>
   </a>
 </p>
