@@ -112,7 +112,7 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/libft.md">
-    <img src="assets/circle0/libft.png" width="260" alt="libft preview"/>
+    <img src="assets/circle0/libft.png" width="340" alt="libft preview"/>
   </a>
 </p>
 
@@ -159,7 +159,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle2/minitalk.png" width="260" alt="minitalk preview"/>
   </a>
   <a href="https://github.com/jack-pepper/so_long">
-    <img src="assets/circle2/solong.png" width="260" alt="so_long preview"/>
+    <img src="assets/circle2/solong.png" width="340" alt="so_long preview"/>
   </a>
 </p>
 
@@ -179,7 +179,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle3/minishell.png" width="260" alt="minishell preview"/>
   </a>
   <a href="presentations/philosophers.md">
-    <img src="assets/circle3/philosophers.png" width="260" alt="philosophers preview"/>
+    <img src="assets/circle3/philosophers.png" width="340" alt="philosophers preview"/>
   </a>
 </p>
 
@@ -204,7 +204,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle4/netpractice.png" width="260" alt="NetPractice preview"/>
   </a>
   <a href="presentations/cub3d.md">
-    <img src="assets/circle4/Wolfenstein-3d.gif" width="260" alt="cub3D preview"/>
+    <img src="assets/circle4/Wolfenstein-3d.gif" width="340" alt="cub3D preview"/>
   </a>
   <a href="presentations/cpp_modules.md">
     <img src="assets/circle4/cpp.png" width="260" alt="C++ modules preview"/>
@@ -250,8 +250,12 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/ft_transcendence.md">
-    <img src="assets/circle6/ft_transcendence.gif" width="260" alt="ft_transcendence preview"/>
+    <img src="assets/circle6/ft_transcendence_1.png" width="340" alt="ft_transcendence preview"/>
   </a>
+  <a href="presentations/ft_transcendence.md">
+    <img src="assets/circle6/ft_transcendence_2.png" width="340" alt="ft_transcendence preview"/>
+  </a>
+  
   <a href="presentations/exam_rank_06.md">
     <img src="assets/circle6/exam_rank_06.png" width="260" alt="Exam Rank 06 preview"/>
   </a>
