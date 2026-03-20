@@ -159,7 +159,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle2/minitalk.png" width="260" alt="minitalk preview"/>
   </a>
   <a href="https://github.com/jack-pepper/so_long">
-    <img src="assets/circle2/so_long.png" width="260" alt="so_long preview"/>
+    <img src="assets/circle2/solong.png" width="260" alt="so_long preview"/>
   </a>
 </p>
 
