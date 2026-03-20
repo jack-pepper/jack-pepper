@@ -101,7 +101,7 @@ to something more fulfilling than bureaucrats' psychosis.
 <details>
   <summary><strong>MY PROJECTS</strong></summary>
 
-# ~ COMMON CORE ~
+# ~ 42 COMMON CORE ~
 
 ## Circle 0
 
@@ -263,6 +263,27 @@ to something more fulfilling than bureaucrats' psychosis.
 
 # Post Common Core
 (To be unlocked)
+
+# Personal projects
+
+## Circle 6
+
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| mylibft | Extend 42 libft C library project. | libc re-implementation, pointers, memory, Makefile, linked lists |
+
+### Visual gallery
+<p align="center">
+  <a href="presentations/mylibft.md">
+    <img src="assets/personal/mylibft_1.png" width="340" alt="ft_transcendence preview"/>
+  </a>
+  <a href="presentations/mylibft.md">
+    <img src="assets/personal/mylibft_2.png" width="340" alt="ft_transcendence preview"/>
+  </a>
+  <a href="presentations/mylibft.md">
+    <img src="assets/personal/mylibft_3.png" width="340" alt="Exam Rank 06 preview"/>
+  </a>
+</p>
 
 </details>
 
