@@ -112,7 +112,7 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/libft.md">
-    <img src="assets/circle0/libft_1.png" width="260" alt="libft preview"/>
+    <img src="assets/circle0/libft.png" width="260" alt="libft preview"/>
   </a>
 </p>
 
