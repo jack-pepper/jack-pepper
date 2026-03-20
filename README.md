@@ -156,13 +156,13 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/push_swap.md">
-    <img src="assets/circle2/push_swap.gif" width="260" alt="push_swap preview"/>
+    <img src="assets/circle2/push_swap.png" width="260" alt="push_swap preview"/>
   </a>
   <a href="presentations/minitalk.md">
     <img src="assets/circle2/minitalk.png" width="260" alt="minitalk preview"/>
   </a>
   <a href="jack-pepper/so_long">
-    <img src="assets/circle2/so_long.gif" width="260" alt="so_long preview"/>
+    <img src="assets/circle2/so_long.png" width="260" alt="so_long preview"/>
   </a>
 </p>
 
@@ -207,7 +207,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/circle4/netpractice.png" width="260" alt="NetPractice preview"/>
   </a>
   <a href="presentations/cub3d.md">
-    <img src="assets/circle4/cub3d.gif" width="260" alt="cub3D preview"/>
+    <img src="assets/circle4/cub3d.png" width="260" alt="cub3D preview"/>
   </a>
   <a href="presentations/cpp_modules.md">
     <img src="assets/circle4/cpp.png" width="260" alt="C++ modules preview"/>
