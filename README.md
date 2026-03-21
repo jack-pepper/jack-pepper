@@ -262,7 +262,28 @@ to something more fulfilling than bureaucrats' psychosis.
 </p>
 
 # Post Common Core
-(To be unlocked)
+
+## Algo & AI & Data
+
+## Security
+
+## Devops
+
+## Web & Mobile
+
+## System & Kernel
+
+| Project | Concise description | Main notions & concepts used |
+|---|---|---|
+| libasm | Become familiar with assembly language by implementing utilities. | (ongoing) |
+
+## Graphics & Gaming
+
+## Cryptography & Maths
+
+## Development
+
+## Professional experience
 
 # Personal projects
 
