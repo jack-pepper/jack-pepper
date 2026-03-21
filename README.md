@@ -176,7 +176,7 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/minishell.md">
-    <img src="assets/circle3/minishell.png" width="260" alt="minishell preview"/>
+    <img src="assets/circle3/minishell.png" width="340" alt="minishell preview"/>
   </a>
   <a href="presentations/philosophers.md">
     <img src="assets/circle3/philosophers.png" width="340" alt="philosophers preview"/>
@@ -281,7 +281,7 @@ to something more fulfilling than bureaucrats' psychosis.
     <img src="assets/mylibft_2.png" width="260" alt="ft_transcendence preview"/>
   </a>
   <a href="presentations/mylibft.md">
-    <img src="assets/mylibft_3.png" width="260" alt="Exam Rank 06 preview"/>
+    <img src="assets/mylibft_3.png" width="340" alt="Exam Rank 06 preview"/>
   </a>
 </p>
 
