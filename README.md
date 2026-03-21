@@ -176,7 +176,7 @@ to something more fulfilling than bureaucrats' psychosis.
 ### Visual gallery
 <p align="center">
   <a href="presentations/minishell.md">
-    <img src="assets/circle3/minishell.png" width="340" alt="minishell preview"/>
+    <img src="assets/circle3/minishell.png" width="420" alt="minishell preview"/>
   </a>
   <a href="presentations/philosophers.md">
     <img src="assets/circle3/philosophers.png" width="340" alt="philosophers preview"/>
