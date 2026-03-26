@@ -71,9 +71,7 @@ int main()
 ## Week of [09-02-2026 - 29-02-2026]
 
 ### [Workflow]
-- Here we go! I lose so much time in France with nonsensical administrative tasks. It's like the whole social organization
-aims to nothing else than keeping the statu quo, no matter how inefficient it is, and preventing people to actually *work* on what does matter. Anyway, there is a second load of absurd kafkaian procedures to tackle now, then I can go back
-to something more fulfilling than bureaucrats' psychosis.
+- Here we go!
 
 ### [Transcendence_Team]
 - Solved conversion issues with my Python script (thanks to [Derek's article: why is it so hard to pdf text extraction?](https://dev.to/derek-compdf/why-is-it-so-hard-to-pdf-text-extraction-k6h?utm_source=chatgpt.com).
