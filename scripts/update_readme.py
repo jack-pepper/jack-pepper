@@ -51,7 +51,7 @@ def read_worklog_content(worklog_files):
         file_content = f.read().strip()
     
     # Format the entry with a header and add the "View all worklogs" link
-    entry = f"\n### 📅 {date_str}\n\n{file_content}\n\n[View all worklogs →](./worklogs)\n"
+    entry = f"\n### Latest logs:\n\n{file_content}\n\n[View all worklogs →](./worklogs)\n"
     
     return entry
 
