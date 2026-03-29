@@ -1,0 +1,16 @@
+### [Workflow]
+- Done: 42_Exam_Rank06 and Transcendence (42 Learning Hub). Validated 42 Common Core with max score and three 'oustanding' on the final project. Now moving to 42Advanced Cursus.
+- Keeping this worklog updated was too challenging during the past weeks. But I'd like to come back to it, this is a good practice.
+
+### [libasm]
+- Goal: recode several classic C functions (strlen, strcpy, strcmp, write, read, strdup) using Assembly.
+- I have been learning a lot thanks to [The Art of Assembly Language](https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf)
+- Installed nasm and studied linkers.
+- Implemented ft_strlen, ft_strcpy, ft_strcmp, ft_write, ft_read. Only left: ft_strdup.
+
+### [42_Learning_Hub]
+- Started the list of what should be done to launch the app in 42's clusters.
+
+### [Herzen]
+- During the last two months, I created an association, and gathered all the documents to register our school while finishing 42 CC.
+- Now I will be working on an app that should save us a lot of time for school management.
