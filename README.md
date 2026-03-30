@@ -66,29 +66,24 @@ int main()
 
 <!-- WORKLOG:START -->
 
-### 📅 2026-02-29
-
-## Week of [09-02-2026 - 29-02-2026]
+### Latest logs:
 
 ### [Workflow]
-- Here we go!
+- Done: 42_Exam_Rank06 and Transcendence (42 Learning Hub). Validated 42 Common Core with max score and three 'oustanding' on the final project. Now moving to 42Advanced Cursus.
+- Keeping this worklog updated was too challenging during the past weeks. But I'd like to come back to it, this is a good practice.
 
-### [Transcendence_Team]
-- Solved conversion issues with my Python script (thanks to [Derek's article: why is it so hard to pdf text extraction?](https://dev.to/derek-compdf/why-is-it-so-hard-to-pdf-text-extraction-k6h?utm_source=chatgpt.com).
-- Learned to set a Django project. Intimidating at first, but it does not bite.
-- Added 42 OAuth (and learned about 42 API)
-- Added (for the most part) GDPR compliance on a dedicated page Documentation (contains legal documents and tools to see, download and delete data).
-- Defined with the team what should be the next steps. Our goal is still to first finalize a minimal version, but we may add a couple of 'easy' modules. Can't wait to develop this project further.
+### [libasm]
+- Goal: recode several classic C functions (strlen, strcpy, strcmp, write, read, strdup) using Assembly.
+- I have been learning a lot thanks to [The Art of Assembly Language](https://www.ic.unicamp.br/~pannain/mc404/aulas/pdfs/Art%20Of%20Intel%20x86%20Assembly.pdf)
+- Installed nasm and studied linkers.
+- Implemented ft_strlen, ft_strcpy, ft_strcmp, ft_write, ft_read. Only left: ft_strdup.
 
-### [42_Exam_Rank06]
-- Tried and failed, but was close. Unexpectedly was able to register to a Tuesday's exam, will try not to fail harder. 
+### [42_Learning_Hub]
+- Started the list of what should be done to launch the app in 42's clusters.
 
-### [On_Pause_and_plans]
-- Transcendence Solo: I will keep on doing it in the side to explore 'basic' stuff needed for any web app.
-- Three other projects (V, T T, H).
-
-### [Thoughts]
--  I read with great interest the article [Something Big is Happening (Matt Shumer)](https://shumer.dev/something-big-is-happening). Unsure on what to conclude though. IA is such a game-changer on many levels, and it evolves so fast that it is definitely not easy to decide on how to handle it. Its mere existence forces you to reconsider almost everything you were sure about.
+### [Herzen]
+- During the last two months, I created an association, and gathered all the documents to register our school while finishing 42 CC.
+- Now I will be working on an app that should save us a lot of time for school management.
 
 [View all worklogs →](./worklogs)
 
